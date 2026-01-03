@@ -1,14 +1,14 @@
-import type { Context as ElysiaContext } from "elysia";
+import type { Context as HonoContext } from "hono";
 
 import { auth } from "@my-better-t-app/auth";
 
 export type CreateContextOptions = {
-  context: ElysiaContext;
+  context: HonoContext;
 };
 
 export async function createContext({ context }: CreateContextOptions) {
   const session = await auth.api.getSession({
-    headers: context.request.headers,
+    headers: context.req.raw.headers,
   });
   return {
     session,

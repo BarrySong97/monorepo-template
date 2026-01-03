@@ -4,10 +4,10 @@
 {
   "$schema": "https://r2.better-t-stack.dev/schema.json",
   "version": "3.13.2",
-  "createdAt": "2026-01-03T05:38:38.339Z",
+  "createdAt": "2026-01-03T05:57:04.883Z",
   "database": "postgres",
   "orm": "drizzle",
-  "backend": "elysia",
+  "backend": "hono",
   "runtime": "bun",
   "frontend": [
     "tanstack-router"
