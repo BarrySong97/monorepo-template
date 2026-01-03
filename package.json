@@ -26,7 +26,7 @@
   "devDependencies": {
     "turbo": "^2.6.3",
     "typescript": "catalog:",
-    "@types/bun": "catalog:",
+    "@types/node": "catalog:",
     "@my-better-t-app/config": "workspace:*"
   },
   "packageManager": "pnpm@10.14.0"

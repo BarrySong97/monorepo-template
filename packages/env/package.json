@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "typescript": "catalog:",
-    "@types/bun": "catalog:",
+    "@types/node": "catalog:",
     "@my-better-t-app/config": "workspace:*"
   }
 }
